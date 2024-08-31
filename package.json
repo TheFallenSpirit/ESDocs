@@ -1,0 +1,21 @@
+{
+	"type": "module",
+	"name": "es-docs",
+	"main": "index.md",
+	"version": "1.0.0",
+	"author": "Liam Labell <thefallenspirit@outlook.com>",
+	"repository": "https://github.com/TheFallenSpirit/ESDocs",
+	"description": "Documentation for the Eternal Slave Discord bot.",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^5.5.4",
+		"vitepress": "^1.3.4",
+		"vue": "^3.4.38"
+	},
+	"scripts": {
+		"dev": "vitepress dev",
+		"build": "vitepress build",
+		"preview": "vitepress preview"
+	},
+	"packageManager": "yarn@4.4.1"
+}
