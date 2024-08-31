@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "ES Docs"
-  tagline: "Documentation for all projects on the FS Network including Eternal Slave."
+  tagline: "Documentation for the Eternal Slave Discord bot. Including server setup, and legal documents."
   actions:
     - theme: brand
       text: "Server Setup"
       link: "/server/permissions"
-    # - theme: alt
-      # text: API Examples
-      # link: /api-examples
+    - theme: alt
+      text: "Legal"
+      link: /terms
 
 # features:
 #   - title: Feature A
