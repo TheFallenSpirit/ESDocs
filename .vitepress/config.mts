@@ -9,6 +9,7 @@ export default defineConfig({
 	outDir: './.vitepress/build',
 	titleTemplate: ':title • ES Docs',
 	themeConfig: {
+		logo: '/es-avatar.png',
 		search: { provider: 'local' },
 		editLink: { pattern: 'https://github.com/TheFallenSpirit/ESDocs/edit/master/:path' },
 		nav: [
