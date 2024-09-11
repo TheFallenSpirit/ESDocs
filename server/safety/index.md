@@ -1,4 +1,4 @@
-# Safety - Server Config
+# Safety • Server Config
 To open the safety config panel, use `/guildctl safety`. This should bring up the following panel:
 
 ![Safety Panel - ES Server Config](/screenshots/server/safety/safety-panel.png)

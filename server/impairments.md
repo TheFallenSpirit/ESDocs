@@ -1,4 +1,4 @@
-# Impairments - Server Config
+# Impairments • Server Config
 To open the impairments config panel, use `/guildctl impairments`. This should bring up the following panel:
 
 ![Impairments Panel - ES Server Config](/screenshots/server/impairments-panel.png)

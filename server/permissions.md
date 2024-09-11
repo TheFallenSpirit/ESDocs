@@ -26,7 +26,7 @@ These permissions are required so ES can view your channel configurations, and c
 ### `/nick`, `/rename`:
 - **"Manage Nicknames":** This permission is required so ES can rename users in your server.
 
-### `/bind`:
+### `/bind`, `/chastity`:
 - **"Manage Roles":** This permission is required so ES can edit permission overrides on channels,
 and remove roles of users when binding them [(for admin binding)](/server/general#toggling-admin-binding).
 - **"Manage Channels:** This permission is required to ES can edit permission overrides on channels in your server.

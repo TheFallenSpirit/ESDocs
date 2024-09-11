@@ -1,4 +1,4 @@
-# General - Server Config
+# General • Server Config
 To open the general config panel, use `/guildctl general`. This should bring up the following panel:
 
 ![General Panel - ES Server Config](/screenshots/server/general-panel.png)

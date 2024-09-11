@@ -1,4 +1,4 @@
-# Confessions - Server Config
+# Confessions • Server Config
 To open the confessions config panel, use `/confessions config`. This should bring up the following panel:
 
 ![Confessions Panel - ES Server Config](/screenshots/server/confessions/config-panel.png)
