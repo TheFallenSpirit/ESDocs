@@ -30,6 +30,7 @@ export default defineConfig({
 				{ text: 'Permissions', link: '/server/permissions' },
 				{ text: 'General config options', link: '/server/general' },
 				{ text: 'Impairments & Hierarchy', link: '/server/impairments' },
+				{ text: 'Chastity Config & Modes', link: '/server/chastity' },
 				{ text: 'Managing Auto Responses', link: '/server/auto-responses' },
 				{ text: 'Confessions & Logs', collapsed: false, items: [
 					{ text: 'Setting up Confessions', link: '/server/confessions/' },
