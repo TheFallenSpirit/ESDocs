@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-	title: 'ES Docs',
+	title: 'Eternal Slave',
 	description: 'Official documentation for the Eternal Slave Discord bot.',
 	cleanUrls: true,
 	lastUpdated: true,
@@ -15,7 +15,7 @@ export default defineConfig({
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Server Setup', link: '/server/permissions' },
-			{ text: 'Legal', link: '/terms' }
+			{ text: 'Legal', link: '/legal/terms' }
 		],
 		footer: {
 			message: 'Documentation for a better world, internet, and Discord bot.',
@@ -23,12 +23,12 @@ export default defineConfig({
 		},
 		socialLinks: [
 			{ icon: 'github', link: 'https://github.com/TheFallenSpirit/ESDocs' },
-			{ icon: 'discord', link: 'https://discord.com/users/738746238874419220' }
+			{ icon: 'discord', link: 'https://discord.gg/rhe42NjaUr' }
 		],
 		sidebar: [
 			{ text: 'Server Setup', collapsed: false, items: [
 				{ text: 'Permissions', link: '/server/permissions' },
-				{ text: 'General config options', link: '/server/general' },
+				{ text: 'General Config Options', link: '/server/general' },
 				{ text: 'Impairments & Hierarchy', link: '/server/impairments' },
 				{ text: 'Chastity Config & Modes', link: '/server/chastity' },
 				{ text: 'Managing Auto Responses', link: '/server/auto-responses' },
@@ -41,9 +41,14 @@ export default defineConfig({
 					{ text: 'Using /safetyctl commands', link: '/server/safety/commands' }
 				]}
 			]},
+			{ text: 'Miscellaneous', collapsed: true, items: [
+				{ text: 'Useful Info', link: '/misc/useful' },
+				{ text: "Fallen's Random Stuff", link: '/misc/fallen' }
+			]},
 			{ text: 'Legal Documents', collapsed: true, items: [
-				{ text: 'Terms of Use', link: '/terms' },
-				{ text: 'Privacy Policy', link: '/privacy' }
+				{ text: 'Terms of Use', link: '/legal/terms' },
+				{ text: 'Privacy Policy', link: '/legal/privacy' },
+				{ text: 'Subscription Policy', link: '/legal/subscriptions' }
 			]}
 		]
 	}

@@ -40,18 +40,4 @@ After removed, ES will no longer respond to that trigger.
 
 
 ## Response Variables
-ES has a variety of variables available for custom responses, these variables are currently only available for auto-responses.
-
-Here is a list of these variables, and what they provide:
-
-- **{user.id}:** The unique ID of the triggering user.
-- **{user.mention}:** A clickable ping/mention of the triggering user.
-- **{user.username}:** The unique username of the triggering user.
-- **{user.display}:** The display name of the triggering user, this will be the users nickname, global name, or username.
-
-- **{guild.id}:** The unique ID of the current server.
-- **{guild.name}:** The name of the current server.
-
-- **{channel.id}:** The unique ID of the channel the response was triggered in.
-- **{channel.name}:** The name of the channel the response was triggered in.
-- **{channel.mention}:** A clickable mention of the channel the response was triggered in.
+ES has a set of variables you can use for auto-responses, to learn more visit [ES Template Variables Documentation](/misc/useful#template-variables).
