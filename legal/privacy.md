@@ -27,12 +27,12 @@ the confession was submitted in. This data is stored to ensure compliance with t
 5. **Tasks.** All tasks submitted to ES are stored until the task is removed, or in the case of writing tasks, permanently stored in an archived state once removed.
 This data is used to provide a task list and a list of archived tasks available to a user and their owner on ES.
 
-6. **Reports.** All reports submitted to ES are permanently stored. This data is used to ensure users are following the [ES Terms of Use](/legal/terms.md)
+6. **Reports.** All reports submitted to ES are permanently stored. This data is used to ensure users are following the [ES Terms of Use](/legal/terms)
 while using the reporting system. It may be accessed by ES Staff at any time for moderation and ES Terms of Use enforcement purposes.
 
 7. **Safety Infractions.** All flags and restrictions issued by the ES Team privately or on the ES Safety Network are permanently stored and tied to users by
 their unique user identifier (User ID). These flags or restrictions may include a provided reason for the infraction, and text or media based evidence for the
-infraction. Because this data is used to ensure a safe experience for all ES users, it can't be deleted via a [Data Deletion Request]().
+infraction. Because this data is used to ensure a safe experience for all ES users, it can't be deleted via a [Data Deletion Request](#viewing--deleting-your-data).
 
 
 ## Data Eternal Slave Shares

@@ -7,7 +7,7 @@ The following permissions are required for ES to function, and ES won't allow yo
 
 - **"View Channels", "Read Message History":**
 These permissions are required so ES can see your servers channels, know where to send messages, and see messages that other members send.
-Messages are processed in accordance with ES's [Privacy Policy](/privacy).
+Messages are processed in accordance with ES's [Privacy Policy](/legal/privacy).
 - **"Send Messages", "Embed Links", "Use External Emojis":**
 These permissions are required so ES can send messages in your server, as well as sending GIFs and using it's custom emojis.
 - **"Manage Messages":** This permission is required so ES can delete messages when a user is impaired or restricted.

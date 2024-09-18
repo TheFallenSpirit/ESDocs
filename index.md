@@ -11,7 +11,7 @@ hero:
       link: "/server/permissions"
     - theme: alt
       text: "Legal"
-      link: /terms
+      link: /legal/terms
 
 # features:
 #   - title: Feature A
