@@ -40,6 +40,10 @@ Any member of the ES Team reserves the right to revoke any users access to Etern
 If you have any questions or concerns, please contact a member of the ES Team via the [ES Community](https://discord.gg/)
 Discord server, or via email to [thefallenspirit@outlook.com](mailto:thefallenspirit@outlook.com).
 
+
+## Subscription Policy
+For terms regarding subscriptions, please refer to our [Subscription Policy](/legal/subscriptions).
+
 <br/>
 
 Revision 1.3.2 - ES Terms of Use
