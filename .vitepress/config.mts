@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
 	title: 'Eternal Slave',
-	description: 'Official documentation for the Eternal Slave Discord bot.',
+	description: 'User and server documentation for the Eternal Slave Discord bot.',
 	cleanUrls: true,
 	srcDir: './docs',
 	lastUpdated: true,
@@ -27,6 +27,9 @@ export default defineConfig({
 			{ icon: 'discord', link: 'https://discord.gg/rhe42NjaUr' }
 		],
 		sidebar: [
+			{ text: 'User Guide', collapsed: false, items: [
+				{ text: 'Managing Custom Gags', link: '/user/custom-gags' }
+			]},
 			{ text: 'Server Setup', collapsed: false, items: [
 				{ text: 'Permissions', link: '/server/permissions' },
 				{ text: 'General Config Options', link: '/server/general' },
@@ -39,7 +42,7 @@ export default defineConfig({
 				]},
 				{ text: 'Safety Alerts & Flagging', collapsed: false, items: [
 					{ text: 'Subscribing to Safety Alerts', link: '/server/safety/' },
-					{ text: 'Using /safetyctl commands', link: '/server/safety/commands' }
+					{ text: 'Using /safetyctl Commands', link: '/server/safety/commands' }
 				]}
 			]},
 			{ text: 'Miscellaneous', collapsed: true, items: [
