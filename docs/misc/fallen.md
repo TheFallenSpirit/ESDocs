@@ -4,6 +4,8 @@ Here is a collection of my random documentation for ES that most likely won't me
 ## Colours
 Red: 0xe63131, Blue: 0x249fe6, Green: 0x4dc34d, ES Yellow: 0xfaff6d, Orange: 0xffa800, Purple: 0x9747ff
 
+Background/Dark Text: #0c0c0d, 
+
 ## Profile Flags
 noSubs, noSelfNick, noOtherOwners, strictSpeech, noSelfMark, noSafeword, donator
 

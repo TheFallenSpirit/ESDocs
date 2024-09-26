@@ -4,6 +4,7 @@ export default defineConfig({
 	title: 'Eternal Slave',
 	description: 'Official documentation for the Eternal Slave Discord bot.',
 	cleanUrls: true,
+	srcDir: './docs',
 	lastUpdated: true,
 	appearance: 'force-dark',
 	outDir: './.vitepress/build',
