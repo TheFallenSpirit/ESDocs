@@ -1,3 +1,7 @@
+---
+description: Learn how to manage custom gags and custom gag rules on Eternal Slave. Part of the ES User Guide.
+---
+
 # Managing Custom Gags
 Custom Gags are a powerful and highly customisable premium feature of ES.
 Using Custom Gags you can manipulate your subs speech in many ways, extending the gagging system to it's full potential.
