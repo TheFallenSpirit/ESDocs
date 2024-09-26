@@ -30,9 +30,6 @@ After deleting, the specified custom gag will no longer show up in your gag type
 ## Adding Custom Gag Rules
 Gag rules are the core of custom gags, you can add up to 10 rules per custom gag, allowing you to customise how the gag works.
 
-Every gag rule has a chance modifier, this can be anywhere from 1 to 100. The chance modifier is percentage of how often the gag rule will be used.
-To specify a chance modifier, use the `chance` field when adding a gag rule. If left blank, the chance will 100%.
-
 There are 4 types of gag rules, these types determine the core of how the rule will function. Here is an explanation of each type and how they work:
 
 - **Replace Message:** This gag type will replace the targets entire message with the provided content.
@@ -45,8 +42,16 @@ This gag requires the use of the `match` option, and supports the `wildcard` opt
 You can add a rule to a custom gag by using `/custom-gag rules add` and selecting the gag from the selector.
 When adding a rule, you must specify the `type`, and `content` options with each gag rule.
 
-You can use the `match` option to specify a word or phrase to match with compatible rule types,
-and the `wildcard` option to enable wildcard matching with compatible rule types.
+You must specify the `match` option to provide a word or phrase to match with the "Replace Word/Phrase" and "Append after Word/Phrase" rule types.
+
+You can use the `chance` option to specify how likely a rule is to execute, this option can be a number from 1-100.
+The chance option is a percentage of how often this rule will execute, if left blank, a rule will execute 100% of the time.
+
+:::tip WILDCARD MATCHING
+The "Replace Word/Phrase" and "Append after Word/Phrase" rule types support
+[wildcard matching](/misc/useful#wildcard-matching) for matching words or phrases in messages.
+You can use the `wildcard` option to enable [wildcard matching](/misc/useful#wildcard-matching).
+:::
 
 
 ## Removing a Custom Gag Rule

@@ -1,5 +1,23 @@
+---
+description: Learn about useful features like wildcard matching and template variables to level up your experience on Eternal Slave.
+---
+
 # Useful Information
 Here you will find some useful information regarding Eternal Slave and it's functionality.
+
+
+## Wildcard Matching
+Wildcard matching is available in many parts of ES that require matching words or phrases, including restrictions and custom gags.
+
+You can typically enable wildcard matching by using the `wildcard` option in commands.
+
+With wildcard matching disabled, ES will only match words or phrases exactly. Here's an example of how wildcard matching works:
+
+If the match/trigger is `foxy` and a user sends "My name is Midnight, and I am a cute foxyyyyy" with wildcard off,
+ES will not match or respond to this phrase because the word "foxyyyyy" is not an exact match.
+
+But with wildcard matching enabled, if a user sends "My name is Midnight, and I am a cute foxyyyyy",
+ES will match or respond to that phrase because `foxy` was found as part of the word "foxyyyyy".
 
 
 ## Template Variables

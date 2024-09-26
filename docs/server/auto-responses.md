@@ -20,13 +20,9 @@ You will need to specify a trigger, the response, and the type of response it is
 The trigger is the word or phrase that ES needs to find in a message to respond to it.
 The response is a sentence, or up to three comma separated emojis (default or custom) to respond to the trigger with.
 
-You can enable the wildcard option to have ES match any instance of the trigger. Example:
-
-If the trigger is `foxy` and a user sends "My name is Midnight, and I am a cute foxyyyyy" with wildcard off,
-ES will not respond to this message because the word "foxyyyyy" is not an exact match.
-
-But with wildcard enabled, if a user sends "My name is Midnight, and I am a cute foxyyyyy",
-ES will respond to that message because `foxy` was found as part of "foxyyyyy".
+:::tip WILDCARD MATCHING
+Auto responses support [wildcard matching](/misc/useful#wildcard-matching) for detecting triggers in messages.
+:::
 
 :::tip INFO
 If you want to have multiple triggers for a single response,

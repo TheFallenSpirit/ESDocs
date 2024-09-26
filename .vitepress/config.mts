@@ -2,7 +2,8 @@ import { DefaultTheme, defineConfig, HeadConfig } from 'vitepress';
 
 const headItems: HeadConfig[] = [
 	['meta', { name: 'theme-color', content: '#faff6d' }],
-	['meta', { property: 'og:image', content: '/es-avatar.png' }]
+	['meta', { property: 'og:image', content: '/es-avatar.png' }],
+	['meta', { property: 'og:site_name', content: 'Documentation • Eternal Slave' }]
 ];
 
 const navConfig: DefaultTheme.NavItem[] = [
