@@ -39,6 +39,10 @@ This gag requires the use of the `match` option, and supports the `wildcard` opt
 This gag requires the use of the `match` option, and supports the `wildcard` option.
 - **Append to End of Message:** THis gag type will add/append the provided content to the end of the targets message.
 
+:::tip INFO
+"Replace Message" rules supersede all other rules in a custom gag. If you add a Replace Message rule, it will always be prioritised.
+:::
+
 You can add a rule to a custom gag by using `/custom-gag rules add` and selecting the gag from the selector.
 When adding a rule, you must specify the `type`, and `content` options with each gag rule.
 
