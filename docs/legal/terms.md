@@ -24,6 +24,9 @@ You as a user must follow these terms at all times while using Eternal Slave or 
 5. You must not cause excessive stress on Eternal Slave by spamming or abusing commands.
 6. You must not deliberately attempt to bug, error, break, or malfunction Eternal Slave in any way.
 
+Any impairments (gags or mutes) issued by the owner or administrators of servers against users are unmoderated by us.
+If a server is causing you an issue, we advise you to contact staff in that server or leave it.
+
 
 ## Reporting Users and Servers
 1. If you encounter a user in violation of [Discord's policies](#following-discords-policies), or these Terms of Use,

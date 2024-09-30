@@ -34,12 +34,20 @@ while using the reporting system. It may be accessed by ES Staff at any time for
 their unique user identifier (User ID). These flags or restrictions may include a provided reason for the infraction, and text or media based evidence for the
 infraction. Because this data is used to ensure a safe experience for all ES users, it can't be deleted via a [Data Deletion Request](#viewing--deleting-your-data).
 
+8. **Subscription Information.** When you subscribe to a premium plan, ES stores the following information: a unique subscription identifier,
+the user id of the person subscribing, the user or server id of the entity receiving the premium benefits, the date of renewal for your subscription,
+and the status of your subscription (active, cancelled, past due, expired). ES doesn't collect any other information regarding subscriptions,
+or any payment information. All information identifying you including your payment information is stored by [Lemon Squeezy](https://lemonsqueezy.com),
+you can read their [privacy policy here](https://www.lemonsqueezy.com/privacy).
+
 
 ## Data Eternal Slave Shares
 1. **Writing Tasks.** All data used to create writing tasks, including but not limited to task names, task descriptions,
 and line count are shared with [WriteForMe](https://writeforme.org) to create and handle these writing tasks.
 You can view WriteForMe's Privacy Policy [here](https://writeforme.org/terms).
 
+2. **Subscription Information.** ES shares your unique user id, and the unique user or server id of the person receiving premium benefits with
+[Lemon Squeezy](https://lemonsqueezy.com), you can read their [privacy policy here](https://www.lemonsqueezy.com/privacy).
 
 ## Viewing & Deleting Your Data
 **Viewing:** You can view all data tied to you that ES is storing by using `/home`, selecting the "Advanced" tab from the selector, and clicking/pressing "View Data".
