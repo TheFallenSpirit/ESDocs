@@ -1,3 +1,8 @@
+---
+title: Privacy Policy - Eternal Slave
+description: Learn about what data ES stores, and what data ES shares with others.
+---
+
 # Privacy Policy - Eternal Slave
 The term “ES” throughout this document refers to Eternal Slave as an application on Discord.
 
@@ -58,6 +63,6 @@ You can only delete your data once per month, and no support will be provided fo
 
 <br/>
 
-Revision 1.1 - ES Privacy Policy
+Revision 1.2 - ES Privacy Policy
 
-This document was last updated on September 18th, 2024 (18/09/2024).
+This document was last updated on September 30th, 2024 (30/09/2024).
