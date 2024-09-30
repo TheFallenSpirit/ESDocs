@@ -1,3 +1,9 @@
+---
+title: Terms of Use
+titleTemplate: :title - Eternal Slave
+description: Learn about the rules and regulations you must follow when using ES and it's services.
+---
+
 # Terms of Use - Eternal Slave
 The terms “we”, “us”, and  “ES” throughout this document refers to Eternal Slave as an application on Discord.
 

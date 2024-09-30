@@ -1,3 +1,9 @@
+---
+title: Subscription Policy
+titleTemplate: :title - Eternal Slave
+description: Learn about ES's rules and regulations regarding premium features and subscriptions.
+---
+
 # Subscription Policy - Eternal Slave
 The terms “we”, “our”, and  “ES” throughout this document refers to Eternal Slave as an application on Discord.
 

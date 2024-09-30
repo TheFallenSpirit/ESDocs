@@ -1,5 +1,6 @@
 ---
-title: Privacy Policy - Eternal Slave
+title: Privacy Policy
+titleTemplate: :title - Eternal Slave
 description: Learn about what data ES stores, and what data ES shares with others.
 ---
 
