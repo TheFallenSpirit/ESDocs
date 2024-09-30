@@ -55,6 +55,6 @@ For terms regarding subscriptions, please refer to our [Subscription Policy](/le
 
 <br/>
 
-Revision 1.3.2 - ES Terms of Use
+Revision 1.4 - ES Terms of Use
 
-This document was last updated on September 18th, 2024 (18/09/2024).
+This document was last updated on September 30th, 2024 (30/09/2024).
