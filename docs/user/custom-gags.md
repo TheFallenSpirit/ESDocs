@@ -32,12 +32,12 @@ Gag rules are the core of custom gags, you can add up to 10 rules per custom gag
 
 There are 4 types of gag rules, these types determine the core of how the rule will function. Here is an explanation of each type and how they work:
 
-- **Replace Message:** This gag type will replace the targets entire message with the provided content.
-- **Replace Word/Phrase:** This gag type will replace a specific word or phrase in the targets message with the provided content.
-This gag requires the use of the `match` option, and supports the `wildcard` option.
-- **Append after Word/Phrase:** This gag type will add/append the provided content after a specific word or or phrase in the targets message.
-This gag requires the use of the `match` option, and supports the `wildcard` option.
-- **Append to End of Message:** THis gag type will add/append the provided content to the end of the targets message.
+- **Replace Message:** This gag rule type will replace the targets entire message with the provided content.
+- [**Replace Word/Phrase:**](#matching-words-or-phrases) This gag rule type will replace a specific word or phrase, or every word in the targets message with the provided content.
+This gag rule type supports the use of the `match` and `wildcard` options.
+- [**Append after Word/Phrase:**](#matching-words-or-phrases) This gag rule type will add/append the provided content after a specific word or or phrase, or every word in the targets message.
+This gag rule type supports the use of the `match` and `wildcard` options.
+- **Append to End of Message:** This gag rule type will add/append the provided content to the end of the targets message.
 
 :::tip INFO
 "Replace Message" rules supersede all other rules in a custom gag. If you add a Replace Message rule, it will always be prioritised.
@@ -46,8 +46,15 @@ This gag requires the use of the `match` option, and supports the `wildcard` opt
 You can add a rule to a custom gag by using `/custom-gag rules add` and selecting the gag from the selector.
 When adding a rule, you must specify the `type`, and `content` options with each gag rule.
 
-You must specify the `match` option to provide a word or phrase to match with the "Replace Word/Phrase" and "Append after Word/Phrase" rule types.
+### Matching Words or Phrases
+You can use the `match` option to specify a word or phrase you want "Replace Word/Phrase" or "Append after Word/Phrase" rules to match.
 
+If a match is provided, they will append after or replace each occurrence of the specified word or phrase.
+
+If no match is provided, they will append after or replace each word in a message.
+If there are multiple append or replace rules, one will be randomly chosen for each word.
+
+### Providing a Chance
 You can use the `chance` option to specify how likely a rule is to execute, this option can be a number from 1-100.
 The chance option is a percentage of how often this rule will execute, if left blank, a rule will execute 100% of the time.
 
