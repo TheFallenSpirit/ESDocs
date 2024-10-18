@@ -1,0 +1,16 @@
+{
+	"tasks": {
+		"dev": "vitepress dev --host 0.0.0.0",
+		"build": "vitepress build",
+		"preview": "vitepress preview"
+	},
+	"imports": {
+		"vitepress": "npm:vitepress"
+	},
+	"fmt": {
+		"useTabs": true,
+		"lineWidth": 160,
+		"indentWidth": 4,
+		"singleQuote": true
+	}
+}
