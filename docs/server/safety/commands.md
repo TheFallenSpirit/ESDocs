@@ -33,7 +33,7 @@ To warn a user, you can use `/safetyctl warn`. ES will respond with a confirmati
 Flags should be issued when a user meets a certain criteria (typically a minor).
 They are a useful way to inform other servers about a specific user, and let the servers handle punishing that user accordingly.
 
-You can [learn more about safety flags here](/server/safety#flag-types-and-criteria).
+You can [learn more about safety flags here](/server/safety/#flag-types-and-criteria).
 
 To flag a user, you can use `/safetyctl warn`. You will need to specify the flag to add with the `flag` field.
 ES will respond with a confirmation prompt, click/press "Yes" to continue.
