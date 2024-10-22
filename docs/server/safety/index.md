@@ -1,66 +1,53 @@
-# Safety • Server Config
-To open the safety config panel, use `/guildctl safety`. This should bring up the following panel:
+---
+description: Learn about Eternal Slave's safety alerts, including how they work, what they're for, and how to subscribe to them.
+---
+
+# Safety Alerts
+On this page you will learn about safety alerts, how they work, what they're for, and how to subscribe to them.
+
+
+## What are Safety Alerts?
+Safety alerts are alerts/notices issued to subscribed servers by the ES Team or partnered/whitelisted servers.
+These alerts can be one of three types:
+
+- **Warn:** A general warning that a user is has broken a severe rule, the ES Terms of Use, or Discord's policies.
+
+- **Blacklist:** A user will be blacklisted when they have severely violated the ES Terms of Use, Discord's policies,
+or is a danger to the BDSM community and doesn't fit into a flag.
+When a user is blacklisted, they will not be able to use Eternal Slave or any of it's services.
+
+- **Flag:** An informal notice that a specific user has met a specific criteria or done something specific.
+Flags are purely informal and it's up to the servers to decide what punishments to issue users that have been flagged.
+
+### Flag Types & Criteria
+There are 2 flag types that can be issued to a user, here's an explanation of them:
+
+- **"Minor":** This flag is issued to users that have been confirmed to be under the age of 18,
+typically though a minor trap or the user themselves confirming it.
+
+- **"Findom":** This flag is issued to users that have been confirmed to be a financial dominant.
+
+
+## Managing Subscriptions
+To view your servers safety alert subscriptions, use `/guildctl safety view`. This should bring up the following panel:
 
 ![Safety Panel - ES Server Config](/screenshots/server/safety/safety-panel.png)
 
-You can use the buttons on this panel to subscribe to safety alerts, configure auto bans, mentions, and more.
+If you want to clear your servers safety subscriptions, click/press the "Clear Subscriptions" button and follow the prompt.
 
 
 ## Subscribing to Safety Alerts
-Safety alerts are alerts created by the ES Safety team or partnered servers, these alerts can be one of three types:
+If you want to subscribe to safety alerts in your server, use `/guildctl safety add`.
+There are 4 options you need to provide when using this command:
 
-- **Warn:** A warning is when a user is warned for a violation of the ES Terms of Use or Discord's policies.
-- **Flag:** A flag indicates that the user meets a certain criteria (typically a minor), and exists to inform servers of that.
-- **Restriction:** A restriction is issued when a user has severely violated the ES Terms of Use or Discord's policies.
-Restrictions will prevent the user from using certain parts, or all of ES.
+- **`subscription`:** The type of alert you want to subscribe to, or the flag you want to subscribe to.
+- **`channel`:** The channel you want this type of safety alerts to be sent in.
+- **`auto-ban`:** If you want users targeted by this type of safety alerts to be automatically banned from your server.
+- **`custom-content` (optional):** Any custom content to include with this type of safety alert messages in your server.
+Can be roles to ping, instructions for staff, or anything else.
 
-To subscribe to safety alerts, you need to set an alerts channel, and select some subscriptions.
+Make sure ES has the required permissions in your specified channel, or else you won't receive safety alerts.
+You can [learn more about permissions here](/server/permissions#safety-alerts).
 
-1. To set an alerts channel, you can click/press the "Set Alerts" button. You should see the following select menu:
-
-![Set Alerts - ES Safety Config](/screenshots/server/safety/set-alerts.png)
-
-Using this select menu, you can choose a channel in your server to receive safety alerts in.
-
-:::warning
-Make sure that ES has the "View Channel" and "Send Messages" permissions in your selected alerts channel.
-You will not receive safety alerts otherwise.
-:::
-
-2. To select your subscriptions, you can click/press the "Set Subscriptions" button. You should see the following select menu:
-
-![Set Subscriptions - ES Safety Config](/screenshots/server/safety/set-subscriptions.png)
-
-Using this select menu, you can choose the safety alert types you want to receive.
-
-::: tip INFO
-You will receive a safety alert whenever some is warned, flagged, or restricted on ES.
-You will also receive a safety alert whenever a user with any infractions attempts to join your server.
-:::
-
-
-## Setting Alert Mentions
-Alert mentions are roles that ES will ping (mention) when sending safety alerts.
-These are useful to notify admins or members of dangerous users joining your server or being flagged.
-
-To set your mention roles, you can click/press the "Set Mentions" button. You should see the following select menu:
-
-![Set Mentions - ES Safety Config](/screenshots/server/safety/set-mentions.png)
-
-Using this select menu, you can choose the roles you want ES to mention when sending safety alerts.
-
-
-## Configuring Auto-Ban
-Auto-ban is useful to keep dangerous users out of your server.
-When enabled, ES will auto-ban users with your selected subscriptions when they attempt to join your server, or even before that if possible.
-
-To set your auto-ban subscriptions, you can click/press the "Set Auto-Ban button. You should see the following select menu:
-
-![Set Auto-Ban Subscriptions - ES Safety Config](/screenshots/server/safety/set-auto-ban.png)
-
-Using this select menu, you can choose the safety alert types you want to auto-ban.
-
-::: warning
-Make sure that ES has the "Ban Members" permission, and is above your default member roles in the hierarchy.
-ES will not attempt to ban any members above it in the hierarchy.
-:::
+## Unsubscribing from Safety Alerts
+If you want to unsubscribe from a safety alert, you can use `/guildctl safety remove` and specify the alert type to unsubscribe from.

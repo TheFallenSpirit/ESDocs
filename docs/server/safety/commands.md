@@ -1,6 +1,14 @@
-# Using Safety Controls
-ES has a variety of safety control commands, these are all subcommands under the `/safetyctl` command.
-These commands are only usable by members of the ES Team, ES Safety Team, or partnered/whitelisted servers.
+---
+description: Learn how to use ES's safety commands, including issuing and undoing safety alerts.
+---
+
+# Issuing Safety Alerts
+:::info
+These commands are only usable by members of the ES Team, or moderators of partnered/whitelisted servers.
+:::
+
+ES has 3 commands that can be used to issue safety alerts, they are all subcommands under `/safetyctl`.
+You can use any one of these commands to issue a safety alert at any time with the required parameters.
 
 :::tip INFO
 Evidence is always required when using safety commands.
@@ -16,38 +24,34 @@ Only issue safety alerts if you are certain of the offence.
 
 
 ## Warning a User
-Warnings should be issued for violations of the ES Terms of Use, Discord's policies, and other unsafe/malicious actions that don't require a restriction.
+Warnings should be issued to users for violations of the ES Terms of Use, Discord's policies, and other unsafe/malicious actions that don't require a blacklist.
 
 To warn a user, you can use `/safetyctl warn`. ES will respond with a confirmation prompt, click/press "Yes" to continue.
 
 
 ## Flagging a User
 Flags should be issued when a user meets a certain criteria (typically a minor).
-Flags are a useful way to inform others about a user without restricting them, or them breaking any policies to warrant a warning.
+They are a useful way to inform other servers about a specific user, and let the servers handle punishing that user accordingly.
 
-There is currently only one flag, `minor`. This flag is used to alert servers of minors, so they can be removed from 18+ servers more easily.
+You can [learn more about safety flags here](/server/safety#flag-types-and-criteria).
 
 To flag a user, you can use `/safetyctl warn`. You will need to specify the flag to add with the `flag` field.
 ES will respond with a confirmation prompt, click/press "Yes" to continue.
 
 
-## Restricting a User
-Restrictions should be issued for severe violations of the ES Terms of Use, Discord's policies, and other unsafe/malicious actions.
-Restrictions will prevent the user from using certain parts, or all of ES. 
+## Blacklisting a User
+Blacklists should be issued when a user severely violates the ES Terms of Use, Discord's policies, or other severe unsafe/malicious actions.
 
-There are 3 types of restrictions, here is a quick summary of what they're for:
+Unsafe/malicious actions include, but are not limited to, blackmail, revenge porn, encouraging self harm or suicide, distribution of CP, etc.
+If you are unsure if you can blacklist someone, contact a member of the ES Team or @thefallenspirit immediately.
 
-- **Full:** Fully blacklists the user from ES. They will be unable to use any commands except for info-only commands like help.
-- **BDSM:** Blacklists a user from using any commands in the BDSM category. They will still be able to submit confessions, and use roleplay commands.
-- **Reports:** Blacklists a user from submitting reports, useful for blocking malicious reporters.
-*This restriction will not be broadcasted as a safety alert.*
+When a user is blacklisted, they will no longer be able to use Eternal Slave or it's services.
 
-To restrict a user, you can use `/safetyctl restrict`. You will need to specify the restriction to add with the `type` field.
-ES will respond with a confirmation prompt, click/press "Yes" to continue.
+To blacklist a user, you can use `/safetyctl blacklist`. ES will respond with a confirmation prompt, click/press "Yes" to continue.
 
 
 ## Undoing an Infraction
-If you ever need to undo a flag or a restriction, you can specify `undo: Yes` when using the relevant command.
+If you ever need to undo a flag or blacklist, you can specify `undo: Yes` when using the relevant command.
 This will remove the infraction from the target user, and broadcast a new safety alert informing others the infraction has been removed.
 
 :::tip INFO

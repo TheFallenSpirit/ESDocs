@@ -33,3 +33,18 @@ and remove roles of users when binding them [(for admin binding)](/server/genera
 
 ### Auto Responses:
 - **"Add Reactions":** This permission is required so ES can react to messages for any configured reaction auto-responses.
+
+
+## Separate Feature Permissions
+The following features do not require ES's default permissions that the rest of the bot requires.
+
+### Safety Alerts:
+- **"Ban Members":** This permission is required so ES can check if a member is banned, and provide a one-click ban button under safety alerts.
+
+Safety alerts also require the following permissions in the subscribed alert channel(s):
+
+- **"View Channel":** This permission is required so ES can view the channel and it's info/permissions.
+- **"Send Messages":** This permission is required so ES can send the safety alerts in the chosen channel.
+- **"Mention Everyone":** This permission is required so ES can ping/mention any roles specified in the subscriptions custom content.
+
+If ES doesn't have these permissions, you will not receive safety alerts during a broadcast or member join.
