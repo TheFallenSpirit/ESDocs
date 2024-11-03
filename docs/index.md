@@ -4,20 +4,22 @@ layout: home
 
 hero:
   name: "ES Docs"
-  tagline: "Documentation for the Eternal Slave Discord bot. Including server setup, and legal documents."
+  tagline: "Documentation for the Eternal Slave Discord bot. Including the user guide, and server guide."
   actions:
     - theme: brand
-      text: "Server Setup"
-      link: "/server/permissions"
+      text: "User Guide"
+      link: "/user/impairments"
     - theme: alt
-      text: "Legal"
-      link: /legal/terms
+      text: "Server Guide"
+      link: /server/permissions
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Impairments
+    link: /user/impairments
+    linkText: Learn more about Impairments
+    details: Learn about ES's gags and mutes on Discord, how to use them, who can use them, and more.
+  - title: Custom Gags
+    link: /user/custom-gags
+    linkText: Learn more about Custom Gags
+    details: Learn about ES's custom gags, how to create them, how to add rules, and more.
 ---

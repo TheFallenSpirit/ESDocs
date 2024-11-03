@@ -7,13 +7,14 @@ const headItems: HeadConfig[] = [
 ];
 
 const navConfig: DefaultTheme.NavItem[] = [
-	{ text: 'User Guide', link: '/user/custom-gags' },
+	{ text: 'User Guide', link: '/user/impairments' },
 	{ text: 'Server Setup', link: '/server/permissions' },
 	{ text: 'Legal', link: '/legal/terms' }
 ];
 
 const sidebarConfig: DefaultTheme.Sidebar = [
 	{ text: 'User Guide', collapsed: false, items: [
+		{ text: 'Impairments Guide', link: '/user/impairments' },
 		{ text: 'Managing Custom Gags', link: '/user/custom-gags' }
 	]},
 	{ text: 'Server Setup', collapsed: false, items: [
