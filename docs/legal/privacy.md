@@ -68,6 +68,6 @@ You can only delete your data once per month, and no support will be provided fo
 
 <br/>
 
-Revision 1.2 - ES Privacy Policy
+Revision 1.2.1 - ES Privacy Policy
 
-This document was last updated on September 30th, 2024 (30/09/2024).
+This document was last updated on November 4th, 2024 (04/11/2024).
