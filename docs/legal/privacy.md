@@ -46,6 +46,10 @@ and the status of your subscription (active, cancelled, past due, expired). ES d
 or any payment information. All information identifying you including your payment information is stored by [Lemon Squeezy](https://lemonsqueezy.com),
 you can read their [privacy policy here](https://www.lemonsqueezy.com/privacy).
 
+9. **Roleplay Counters.** When someone uses a roleplay command on you, ES stores a counter on your profile of the amount of times
+that roleplay command has been used on you.
+You can find a list of roleplay commands by using `/help` and selecting "Fun & Roleplay Commands" from the selector.
+
 
 ## Data Eternal Slave Shares
 1. **Writing Tasks.** All data used to create writing tasks, including but not limited to task names, task descriptions,
@@ -59,7 +63,7 @@ You can view WriteForMe's Privacy Policy [here](https://writeforme.org/terms).
 **Viewing:** You can view all data tied to you that ES is storing by using `/home`, selecting the "Advanced" tab from the selector, and clicking/pressing "View Data".
 You can only request to view this data once per month.
 
-**Deleting:** You can delete all data tied to you on ES by using `/home`, selecting the "Advanced" tab from the selector, and clicking/pressing "Delete Data".
+**Deleting:** You can delete any data tied to you on ES by using `/home`, selecting the "Advanced" tab from the selector, and clicking/pressing "Request Data Deletion".
 You can only delete your data once per month, and no support will be provided for any loss of functionality in Eternal Slave after deleting your data.
 
 <br/>
