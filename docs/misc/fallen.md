@@ -7,7 +7,17 @@ Red: 0xe63131, Blue: 0x249fe6, Green: 0x4dc34d, ES Yellow: 0xfaff6d, Orange: 0xf
 Background/Dark Text: #0c0c0d, 
 
 ## Profile Flags
-noSubs, noSelfNick, noOtherOwners, strictSpeech, noSelfMark, noSafeword, donator
+
+### Regular
+```txt
+donator, hideSubs, hideOwners, hideTrustedUsers, noRoleplayCount
+```
+
+### Restrictions
+```txt
+noSubs, noClaiming, noSelfMark, noSelfNick, noSafeword, noOtherOwners, noEmojis, noStickers, noLinks, noAttachments, noProfanity, noSlurs, noSelfAuth
+```
+
 
 ## Monster Ratings
 
@@ -17,7 +27,7 @@ noSubs, noSelfNick, noOtherOwners, strictSpeech, noSelfMark, noSafeword, donator
 
 ### Monster Punch:
 - Monster Punch: Khaotic - 8.5/10
-- Monster Punch: Pacific Punch - 6/10
+- Monster Punch: Pacific Punch - 8/10
 - Monster Punch: Aussie Lemonade - 6.25/10
 
 ### Monster Reserve:
