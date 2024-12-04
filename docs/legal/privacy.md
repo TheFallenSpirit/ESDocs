@@ -54,7 +54,7 @@ that roleplay command has been used on you.
 You can find a list of roleplay commands by using `/help` and selecting "Fun & Roleplay Commands" from the selector.
 
 - **Impairment Statistics.** ES stores the total minutes you have been muted and the total minutes you have been gagged.
-This data is not read or used in any of our services currently, and is being stored for future analytics.
+This data is not read or used in any of our services currently, and is being stored for future user-facing analytics.
 
 ## Data Eternal Slave Shares
 1. **Writing Tasks.** All data used to create writing tasks, including but not limited to task names, task descriptions,
