@@ -40,13 +40,6 @@ You can choose and convert HEX codes [here](https://www.hexcolortool.com/).
 :::
 
 
-## Toggling Gag Message Logs
-When gag message logs are enabled, ES will store a users original message before it is deleted.
-Other members will then be able to view it by clicking the button under the gag message.
-
-To enable or disable gag message logs, click/press the "Gag Message Logs" button.
-
-
 ## Toggling Admin Binding
 When admin binding is enabled, any members that are below ES in your role hierarchy will be bindable, regardless of their permissions.
 

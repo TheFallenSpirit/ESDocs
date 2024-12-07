@@ -27,16 +27,21 @@ To set the hierarchy level, you can click/press the "Set Level" button. You shou
 Using this select menu, you can choose a new hierarchy level for your server.
 
 
-## Setting the Bypass Permission
-The bypass permission is the required Discord permission to bypass the hierarchy, and locally impair anyone regardless of their roles or position.
+## Setting the Peeking Mode
+Gag message peeking is a useful feature allowing members to view the original content of a gag message.
+Gag message peeking only works with animal gags, the muffle gag, and the scramble gags.
 
-ES provides a variety of permissions that this can be set to, so you can choose the one that's best for your server.
+There are 3 gag message peeking modes:
 
-To set the required bypass permission, you can click/press the "Set Bypass" button. You should see the following select menu:
+- **Public / Enabled:** Any member of the server can use gag message peeking and view the original content of gag messages.
+- **Requires Permission:** Any member of the server with a role that has the `impairments.gag-message-peeking` permission can use gag message peeking.
+- **Disabled:** No members can use gag message peeking, messages won't be stored and the "👀" button won't be shown on gag messages.
 
-![Set Bypass Perms - ES Impairments Config](/screenshots/server/impairments-set-bypass.png)
+To set the gag message peeking mode, you can click/press the "Set Peeking" button. You should see the following select menu:
 
-Using this select menu, you can choose a new required bypass permission for your server.
+![Set Peeking Mode - ES Impairments Config](/screenshots/server/impairments-set-peeking.png)
+
+Using this select menu, you can choose a new gag message peeking mode for your server.
 
 
 ## Updating the Manager Roles

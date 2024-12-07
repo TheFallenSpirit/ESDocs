@@ -16,6 +16,8 @@ ES Plus subscribers will get 5 custom gags, ES Ultimate subscribers will get 10 
 To create a custom gag, use `/custom-gag create`. You will need to specify a name for the gag (up to 32 characters).
 If you're in a server with an ES Advanced subscription, you can specify `server: Yes` to create the gag in the server.
 
+If you want to enable [gag message peeking](/server/impairments#setting-the-peeking-mode) for your custom gag, you can specify `message-peeking: Yes` to enable it.
+
 After creating a custom gag for yourself, it will show up in your gag type selector when using `/gag`.
 If the custom gag was created for a server, it will show up in the gag type selector for all members in that server when using `/gag`.
 
