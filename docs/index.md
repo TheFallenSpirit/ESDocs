@@ -11,7 +11,7 @@ hero:
       link: "/user/impairments"
     - theme: alt
       text: "Server Guide"
-      link: /server/permissions
+      link: /server/bot-permissions
 
 features:
   - title: Impairments

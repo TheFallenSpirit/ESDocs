@@ -18,7 +18,8 @@ const sidebarConfig: DefaultTheme.Sidebar = [
 		{ text: 'Managing Custom Gags', link: '/user/custom-gags' }
 	]},
 	{ text: 'Server Setup', collapsed: false, items: [
-		{ text: 'Permissions', link: '/server/permissions' },
+		{ text: 'Bot Permissions', link: '/server/bot-permissions' },
+		{ text: 'User Permissions', link: '/server/user-permissions' },
 		{ text: 'General Config Options', link: '/server/general' },
 		{ text: 'Impairments & Hierarchy', link: '/server/impairments' },
 		{ text: 'Chastity Config & Modes', link: '/server/chastity' },

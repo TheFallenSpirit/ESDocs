@@ -1,3 +1,7 @@
+---
+description: Learn about ES's required permissions, and extra permissions that ES might need.
+---
+
 # Required Permissions
 ES requires certain permissions for certain commands, and a few default permissions for basic functionality of the bot.
 
