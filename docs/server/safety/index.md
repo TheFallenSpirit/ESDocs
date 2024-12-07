@@ -47,7 +47,7 @@ There are 4 options you need to provide when using this command:
 Can be roles to ping, instructions for staff, or anything else.
 
 Make sure ES has the required permissions in your specified channel, or else you won't receive safety alerts.
-You can [learn more about permissions here](/server/permissions#safety-alerts).
+You can [learn more about permissions here](/server/bot-permissions#safety-alerts).
 
 ## Unsubscribing from Safety Alerts
 If you want to unsubscribe from a safety alert, you can use `/guildctl safety remove` and specify the alert type to unsubscribe from.

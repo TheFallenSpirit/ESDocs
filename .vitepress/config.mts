@@ -8,7 +8,7 @@ const headItems: HeadConfig[] = [
 
 const navConfig: DefaultTheme.NavItem[] = [
 	{ text: 'User Guide', link: '/user/impairments' },
-	{ text: 'Server Setup', link: '/server/permissions' },
+	{ text: 'Server Setup', link: '/server/bot-permissions' },
 	{ text: 'Legal', link: '/legal/terms' }
 ];
 
