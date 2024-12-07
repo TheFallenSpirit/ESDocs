@@ -1,3 +1,7 @@
+---
+description: Learn how to configure ES's chastity command in your server, including the chastity mode, role, and NSFW channels.
+---
+
 # Chastity • Server Config
 To open the chastity config panel, you can use `/guildctl chastity`. This should bring up the following panel:
 

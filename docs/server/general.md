@@ -1,3 +1,7 @@
+---
+description: Learn about ES's general config options for your server, including setting up logs, and setting a custom default colour.
+---
+
 # General • Server Config
 To open the general config panel, use `/guildctl general`. This should bring up the following panel:
 

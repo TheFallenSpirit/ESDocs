@@ -1,3 +1,7 @@
+---
+description: Learn how to configure ES's auto responses in your server, including adding and removing responses.
+---
+
 # Managing Auto Responses
 ES has the ability to automatically respond to a message trigger with a message or reactions.
 

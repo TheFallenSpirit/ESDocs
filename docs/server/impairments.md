@@ -1,3 +1,7 @@
+---
+description: Learn how to configure ES's impairments for your server, including the impairments hierarchy and message peeking.
+---
+
 # Impairments • Server Config
 To open the impairments config panel, use `/guildctl impairments`. This should bring up the following panel:
 
