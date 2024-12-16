@@ -40,7 +40,8 @@ const sidebarConfig: DefaultTheme.Sidebar = [
 	{ text: 'Legal Documents', collapsed: true, items: [
 		{ text: 'Terms of Use', link: '/legal/terms' },
 		{ text: 'Privacy Policy', link: '/legal/privacy' },
-		{ text: 'Subscription Policy', link: '/legal/subscriptions' }
+		{ text: 'Subscription Policy', link: '/legal/subscriptions' },
+		{ text: 'Partner Program Rules', link: '/legal/partners' }
 	]}
 ];
 
@@ -61,7 +62,7 @@ export default defineConfig({
 		logo: '/es-avatar.png',
 		sidebar: sidebarConfig,
 		search: { provider: 'local' },
-		editLink: { pattern: 'https://github.com/TheFallenSpirit/ESDocs/edit/master/:path' },
+		editLink: { pattern: 'https://github.com/TheFallenSpirit/ESDocs/edit/master/docs/:path' },
 		footer: {
 			message: 'Documentation for a better world, internet, and Discord bot.',
 			copyright: 'Copyright © 2024 <a href="https://fallenspirit.dev">Liam Labell (TheFallenSpirit)</a>'
