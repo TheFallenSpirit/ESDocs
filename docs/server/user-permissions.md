@@ -85,6 +85,19 @@ Below is a list of each string permission ES has, and a description of what it's
   - `safety.warn`: Warn Users on the ES Safety Network
   - `safety.blacklist`: Blacklist Users on the ES Safety Network
   - `safety.alerts.ban`: Ban Users from Safety Alerts
+- **`partner`**
+  - `partner.config`: View the Partner Config Panel
+    - `partner.config.*`: Manage all Partner Config Panel Options (Wildcard)
+    - `partner.config.create-profile`: Create an ES Partner Program Profile.
+    - `partner.config.friendly-name`: Manage the Partner Profile Friendly Name
+    - `partner.config.invite`: Manage the Partner Profile Invite Link
+    - `partner.config.apply`: Apply for the ES Partner Program
+- **`discovery`**
+  - `discovery.config`: View the Discovery Config Panel
+    - `discovery.config.*`: Manage all Discovery Config Panel Options (Wildcard)
+    - `discovery.config.status`: Toggle the Discovery Status (Public/Private)
+    - `discovery.config.tags`: Manage the Discovery Tags
+    - `discovery.config.description`: Manage the Discovery Description
 - **`responses`**
   - `responses.config.*`: Manage all Auto Responses
     - `responses.config.add`: Add Auto Responses
