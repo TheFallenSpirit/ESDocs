@@ -33,7 +33,7 @@ To warn a user, you can use `/safetyctl warn`. ES will respond with a confirmati
 Flags should be issued when a user meets a certain criteria (typically a minor).
 They are a useful way to inform other servers about a specific user, and let the servers handle punishing that user accordingly.
 
-You can [learn more about safety flags here](/server/safety/#flag-types-and-criteria).
+[Learn more about safety flags here](/server/safety/#flag-types-and-criteria).
 
 To flag a user, you can use `/safetyctl warn`. You will need to specify the flag to add with the `flag` field.
 ES will respond with a confirmation prompt, click/press "Yes" to continue.
@@ -41,13 +41,14 @@ ES will respond with a confirmation prompt, click/press "Yes" to continue.
 
 ## Blacklisting a User
 Blacklists should be issued when a user severely violates the ES Terms of Use, Discord's policies, or other severe unsafe/malicious actions.
+They act like flags by informing other users and servers about the target user, and also restrict their ability to use features on ES.
 
-Unsafe/malicious actions include, but are not limited to, blackmail, revenge porn, encouraging self harm or suicide, distribution of CP, etc.
-If you are unsure if you can blacklist someone, contact a member of the ES Team or @thefallenspirit immediately.
+[Learn more about blacklist types here](/server/safety/#blacklist-types-and-criteria).
 
 When a user is blacklisted, they will no longer be able to use Eternal Slave or it's services.
 
-To blacklist a user, you can use `/safetyctl blacklist`. ES will respond with a confirmation prompt, click/press "Yes" to continue.
+To blacklist a user, you can use `/safetyctl blacklist`. You will need to specify the blacklist type with the `type` field.
+ES will respond with a confirmation prompt, click/press "Yes" to continue.
 
 
 ## Undoing an Infraction

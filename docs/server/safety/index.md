@@ -14,7 +14,7 @@ These alerts can be one of three types:
 
 - **Blacklist:** A user will be blacklisted when they have severely violated the ES Terms of Use, Discord's policies,
 or is a danger to the BDSM community and doesn't fit into a flag.
-When a user is blacklisted, they will not be able to use Eternal Slave or any of it's services.
+When a user is blacklisted, they will not be use certain features on Eternal Slave, or the entirety of Eternal Slave.
 
 - **Flag:** An informal notice that a specific user has met a specific criteria or done something specific.
 Flags are purely informal and it's up to the servers to decide what punishments to issue users that have been flagged.
@@ -26,6 +26,17 @@ There are 2 flag types that can be issued to a user, here's an explanation of th
 typically though a minor trap or the user themselves confirming it.
 
 - **"Findom":** This flag is issued to users that have been confirmed to be a financial dominant.
+
+### Blacklist Types & Criteria
+There are 2 blacklist types that can be issued to a user, here's an explanation of them:
+
+- **"Full":** This blacklist is issued to malicious users for many reasons like blackmail, revenge porn,
+distribution of CP, encouraging self harm or suicide, and more.
+
+- **"BDSM":** This blacklist is issued to users that don't practice proper safety or consent when doing BDSM activities.
+It is basically a catch all for a person that shouldn't be allowed in BDSM servers.
+
+If you have any questions about these flags, or if a user should be flagged, contact a member of the ES Team immediately.
 
 
 ## Managing Subscriptions
