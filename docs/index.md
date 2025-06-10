@@ -6,7 +6,7 @@ titleTemplate: Eternal Slave
 head:
   - - meta
     - name: og:site_name
-      content: null
+      content: ''
 
 hero:
   name: "Eternal Slave"
