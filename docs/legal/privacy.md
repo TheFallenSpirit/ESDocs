@@ -49,8 +49,9 @@ and the status of your subscription (active, cancelled, past due, expired). ES d
 or any payment information. All information identifying you including your payment information is stored by [Lemon Squeezy](https://lemonsqueezy.com),
 you can read their [privacy policy here](https://www.lemonsqueezy.com/privacy).
 
-- **Roleplay Counters.** When someone uses a roleplay command on you, ES stores a counter on your profile of the amount of times
+- **Roleplay Counters.** When someone uses a roleplay command on you, ES stores a counter of the amount of times
 that roleplay command has been used on you.
+ES will also store a count of how many times two users have used a roleplay command on each other.
 You can find a list of roleplay commands by using `/help` and selecting "Fun & Roleplay Commands" from the selector.
 
 - **Impairment Statistics.** ES stores the total minutes you have been muted and the total minutes you have been gagged.
@@ -73,6 +74,6 @@ You can only delete your data once per month, and no support will be provided fo
 
 <br/>
 
-Revision 1.3 - ES Privacy Policy
+Revision 1.4 - ES Privacy Policy
 
-This document was last updated on December 4th, 2024 (04/12/2024).
+This document was last updated on June 14th, 2024 (14/06/2025).
