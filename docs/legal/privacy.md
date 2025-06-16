@@ -25,7 +25,7 @@ used to customize and improve your servers experience on ES, as well as give you
 
 - **Message Content.** All messages that ES can access are processed and checked to determine if the user is gagged, muted, or restricted.
   - The last 9 deleted and edited messages in every server channel that ES has access to are stored for up to 15 minutes and are permanently deleted after.
-  - All messages deleted by ES because a user is gagged may be stored for up to 3 and a half minutes to provide the original message content to other
+  - All messages deleted by ES because a user is gagged may be stored for up to 5 and a half minutes to provide the original message content to other
     users in the current server.
 
   Stored messages are exclusively used for their above provided reasons and those alone.
