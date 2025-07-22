@@ -23,12 +23,6 @@ Only issue safety alerts if you are certain of the offence.
 :::
 
 
-## Warning a User
-Warnings should be issued to users for violations of the ES Terms of Use, Discord's policies, and other unsafe/malicious actions that don't require a blacklist.
-
-To warn a user, you can use `/safetyctl warn`. ES will respond with a confirmation prompt, click/press "Yes" to continue.
-
-
 ## Flagging a User
 Flags should be issued when a user meets a certain criteria (typically a minor).
 They are a useful way to inform other servers about a specific user, and let the servers handle punishing that user accordingly.

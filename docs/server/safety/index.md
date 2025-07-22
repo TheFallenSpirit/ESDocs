@@ -27,6 +27,9 @@ typically though a minor trap or the user themselves confirming it.
 
 - **"Findom":** This flag is issued to users that have been confirmed to be a financial dominant.
 
+- **"Seller":** This flag is issued to bot accounts or user accounts selling illegal content, porn, or other scam content.
+
+
 ### Blacklist Types & Criteria
 There are 2 blacklist types that can be issued to a user, here's an explanation of them:
 
@@ -42,7 +45,7 @@ If you have any questions about these flags, or if a user should be flagged, con
 ## Managing Subscriptions
 To view your servers safety alert subscriptions, use `/guildctl safety view`. This should bring up the following panel:
 
-![Safety Panel - ES Server Config](/screenshots/server/safety/safety-panel.png)
+![Safety Panel - ES Server Config](/screenshots/server/safety-panel.png)
 
 If you want to clear your servers safety subscriptions, click/press the "Clear Subscriptions" button and follow the prompt.
 
