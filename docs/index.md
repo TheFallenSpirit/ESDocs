@@ -1,10 +1,16 @@
 ---
-title: Home
 layout: home
+title: Eternal Slave
+titleTemplate: Eternal Slave
+
+head:
+  - - meta
+    - name: og:site_name
+      content: ''
 
 hero:
-  name: "ES Docs"
-  tagline: "Documentation for the Eternal Slave Discord bot. Including the user guide, and server guide."
+  name: "Eternal Slave"
+  tagline: "Welcome to Eternal Slave. The ultimate customisable BDSM bot with gags, binds, restrictions, and more."
   actions:
     - theme: brand
       text: "User Guide"
