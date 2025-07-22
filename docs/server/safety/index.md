@@ -33,8 +33,8 @@ typically though a minor trap or the user themselves confirming it.
 ### Blacklist Types & Criteria
 There are 2 blacklist types that can be issued to a user, here's an explanation of them:
 
-- **"Full":** This blacklist is issued to malicious users for many reasons like blackmail, revenge porn,
-distribution of CP, encouraging self harm or suicide, and more.
+- **"Full":** This blacklist is issued to malicious users for many reasons like blackmail, revenge porn, 
+encouraging self harm or suicide, and more.
 
 - **"BDSM":** This blacklist is issued to users that don't practice proper safety or consent when doing BDSM activities.
 It is basically a catch all for a person that shouldn't be allowed in BDSM servers.
