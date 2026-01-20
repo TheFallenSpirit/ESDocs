@@ -13,6 +13,15 @@ These rules are for the safety and protection of all users on Discord and using 
 - Your server must actively protect users under 18 from exposure to sexual or NSFW content.
 
 
+## Server Representative
+You must keep your server's partner representative up-to-date at all times.
+If your rep leaves your server, or ES Community, you will automatically be removed from the ES Partner Program.
+
+:::info
+Representatives will automatically be given access to `#partner-lounge` in ES Community when assigned or changed.
+:::
+
+
 ## Prohibited Activities
 - **Dating and Relationships**  
   Your server must not allow, encourage, or facilitate dating, e-dating, or relationships involving users under 18.
@@ -46,4 +55,4 @@ Violations may also result in your server losing access to Eternal Slave or any 
 
 <br/>
 
-Revision 1.0 - ES Partner Program Rules | Last updated December 16th, 2024 (16/12/2024).
+Revision 1.1 - ES Partner Program Rules | Last updated January 19th, 2026 (19/01/2026).
