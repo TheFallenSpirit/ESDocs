@@ -21,20 +21,20 @@ noSubs, noClaiming, noSelfMark, noSelfNick, noSafeword, noOtherOwners, noEmojis,
 
 ## Monster Ratings
 
-### Monster Energy:
+### Monster Energy
 - Monster Energy - 6.5/10
 - Monster Energy: Assault - 5/10
 
-### Monster Punch:
+### Monster Punch
 - Monster Punch: Khaotic - 8.5/10
 - Monster Punch: Pacific Punch - 8/10
 - Monster Punch: Aussie Lemonade - 6.25/10
 
-### Monster Reserve:
+### Monster Reserve
 - Monster Reserve: Watermelon - 5.5/10
 - Monster Reserve: Orange Dreamsicle - 6/10
 
-### Monster Ultra:
+### Monster Ultra
 - Monster Ultra: Gold - 8.5/10
 - Monster Ultra: Violet - 6/10
 - Monster Ultra: Rosá - 7.5/10
@@ -44,3 +44,4 @@ noSubs, noClaiming, noSelfMark, noSelfNick, noSafeword, noOtherOwners, noEmojis,
 - Monster Ultra: Red - 8/10
 - Monster Ultra: Strawberry Dreams - 6/10
 - Monster Ultra: Fantasy Ruby Red - 7.5/10
+- Monster Ultra: Viking Berry - 6.5/10
