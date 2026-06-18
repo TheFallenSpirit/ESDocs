@@ -24,6 +24,8 @@ noSubs, noClaiming, noSelfMark, noSelfNick, noSafeword, noOtherOwners, noEmojis,
 ### Monster Energy
 - Monster Energy - 6.5/10
 - Monster Energy: Assault - 5/10
+- Monster Energy: Nitro - 7/10
+- Monster Energy: Electric Blue - 6/10
 
 ### Monster Punch
 - Monster Punch: Khaotic - 8.5/10
@@ -45,3 +47,8 @@ noSubs, noClaiming, noSelfMark, noSelfNick, noSafeword, noOtherOwners, noEmojis,
 - Monster Ultra: Strawberry Dreams - 6/10
 - Monster Ultra: Fantasy Ruby Red - 7.5/10
 - Monster Ultra: Viking Berry - 6.5/10
+- Monster Ultra: Lando Norris - 7/10
+
+### Monster Juice
+- Monster Juice: Voodoo Grape - 7.5/10
+- Monster Juice: Bad Apple - 8/10
